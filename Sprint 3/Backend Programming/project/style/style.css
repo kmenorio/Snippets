@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Franklin';
+    src: url('../fonts/LibreFranklin-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0px;
+    color: #545653;
+}
+
+a {
+    text-decoration: none;
+    color: #545653;
+    font-size: 14px;
+}
+
+li a {
+    font-weight: bold;
+}
+
+.nav-bar {
+    height: 75px;
+    background-color: #FFE2C9;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-name {
+    font-family: 'Times New Roman';
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.title-tag {
+    font-family: 'Franklin';
+    font-size: 14px;
+    font-style: italic;
+}
+
+.nav-link {
+    margin: 20px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0px 20px;
+    overflow: hidden;
+    font-family: 'Franklin';
+}
+
+.page-nav li {
+    margin: 0px 0px 0px 25px !important;
+}
+
+.nav-list li a:hover {
+    color: #2E2F2D;
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+.content-cont {
+    background-color: #FDF8EF;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.content-title {
+    font-family: 'Franklin';
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.story-info * {
+    margin: auto 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.stat-field {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px;
+}
+
+.stat-field * {
+    margin: 0px 2px !important;
+}
+
+.stat-cont {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-link {
+    font-family: 'Franklin';
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-link button {
+    background-color: transparent;
+    font-family: 'Franklin';
+    border: none;
+    border-radius: 20px;
+    border: 3px solid #FFE2C9;
+    box-shadow: none;
+    color: #545653;
+    font-style: italic;
+    padding: 10px;
+}
+
+.button-link button:hover {
+    background-color: #FFD9B8;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table input, table textarea {
+    width: 500px;
+}
+
+table textarea {
+    height: 300px;
+}
+
+tr {
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    float: right;
+    width: auto;
+    background-color: transparent;
+    font-family: 'Franklin';
+    border: none;
+    border-radius: 20px;
+    border: 3px solid #FFE2C9;
+    color: #545653;
+    padding: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #FFD9B8;
+}
+
+.tlabel {
+    vertical-align: top;
+    margin-bottom: 20px
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.like-story {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-story button {
+    border: none;
+    width: 16px;
+    height: 16px;
+    background: url("../img/heart-blank.png") no-repeat;
+    background-size: 16px;
+}
+
+.like-story button:hover {
+    background: url("../img/heart-filled.png") no-repeat;
+    background-size: 16px;
+}
+
+.nav-p {
+    background-color: transparent !important;
+    color: #545653 !important;
+    border: none !important;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px 20px;
+    padding: 5px !important;
+}
+
+.nav-p:hover {
+    color: #2E2F2D !important;
+}
+
+.nav-b {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
